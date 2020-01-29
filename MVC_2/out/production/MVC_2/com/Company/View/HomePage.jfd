@@ -1,0 +1,70 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "1.8.0_202-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {par t {seq t {space :::x, comp button1:::p:115:p, space :p:100:p}, seq t {space :p:27:p, par t {comp label3:::p:91:p, comp label2:::p:91:p, comp label1:::p:91:p}, space s:::p, par l {seq {par l {comp l_shahtoot:::::x, seq {comp l_shahtootStock:::p:115:p, space :0:0:x}}, space :p:100:p}, seq l {comp l_shahtootPrice:::p:115:p, space :::x}}}}, par t {comp l_kimPrice:::p:115:p, comp button2:::p:116:p, comp l_kimStock::t:p:115:p, comp l_kim:::p:115:p}, space :p:97:p, par l {comp button3:::p:118:p, comp l_dogholoStock:::p:115:p, comp l_dogholoPrice:::p:115:p, comp l_dogholo::l:p:115:p}, space :p:41:p}}"
+			"$verticalGroup": "par l {seq t {space :p:84:p, par b {comp label1::b:p:30:p, comp l_shahtoot::b:p:30:p, comp l_kim::b:p:30:p, comp l_dogholo::b:p:30:p}, par l {seq {space :p:50:p, comp label2:::p:30:p}, seq l {space :p:42:p, par b {comp l_shahtootStock::b:p:30:p, comp l_kimStock::b:p:30:p, comp l_dogholoStock::b:p:30:p}}}, par l {seq {space :p:41:p, comp label3:::p:30:p}, seq l {space :p:33:p, par b {comp l_kimPrice::b:p:30:p, comp l_shahtootPrice::b:p:30:p, comp l_dogholoPrice::b:p:30:p}}}, space ::85:x, par b {comp button3::b:p:43:p, comp button1::b:p:47:p, comp button2::b:p:44:p}, space :p:61:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "name"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "stock"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "price"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_shahtoot"
+				"text": "shahtoot"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_shahtootStock"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_shahtootPrice"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_kim"
+				"text": "kim"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_kimStock"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_kimPrice"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_dogholo"
+				"text": "dogholo"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_dogholoStock"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_dogholoPrice"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 725, 490 )
+		} )
+	}
+}

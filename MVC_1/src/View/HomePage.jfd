@@ -1,0 +1,79 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "1.8.0_202-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par t {seq t {space :p:22:p, par l {seq l {comp label6:::p:47:p, space s:::p, par l {seq {space :0:0:x, comp label1:::p:109:p, space :p:48:p, comp label2:::p:121:p}, comp l_pricePride::l:p:99:p}}, seq l {par l {comp label5:::::x, comp label4:::::x}, space :p:44:p, comp l_stockPride:::p:123:p, space :p:177:p}}}, seq t {space :::x, par l {comp l_stockSaina:::p:91:p, comp B_saina:::p:109:p, comp l_priceSaina::l:p:68:p}, space :p:30:p}}, par l {seq {space :p:38:p, par t {comp label3::t:p:123:p, seq t {par t {comp l_priceTiba:::p:93:p, comp B_tiba:::p:101:p}, space :p:30:p}}, space :p:66:p}, seq t {comp l_stockTiba:::p:123:p, space :p:77:p}}}, seq l {space :p:81:p, comp B_pride:::p:95:p, space :::x}}"
+			"$verticalGroup": "par l {seq l {space :p:37:p, par b {comp label1::b:p:51:p, comp label2::b:p:51:p, comp label3::b:p:26:p, comp label5::b:p:31:p}, space :p:58:p, par l {comp label4:::p:34:p, comp l_stockPride:::p:34:p, comp l_stockSaina:::p:34:p, comp l_stockTiba:::p:34:p}, space :p:56:p, par t {comp label6:::p:26:p, comp l_pricePride:::p:24:p, comp l_priceSaina:::p:40:p, comp l_priceTiba:::p:39:p}, space :p:47:p, par b {comp B_pride::b:::x, comp B_saina::b:p::p, comp B_tiba::b:p::p}, space :p:122:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "pride"
+				"font": new java.awt.Font( "Tahoma", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "saina"
+				"font": new java.awt.Font( "Tahoma", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "tiba"
+				"font": new java.awt.Font( "Tahoma", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "stock"
+				"font": new java.awt.Font( "Tahoma", 0, 16 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "name"
+				"font": new java.awt.Font( "Tahoma", 0, 16 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "price"
+				"font": new java.awt.Font( "Tahoma", 0, 16 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_stockPride"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_stockSaina"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_stockTiba"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_pricePride"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_priceSaina"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "l_priceTiba"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "B_pride"
+				"text": "Buy"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "B_prideActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "B_saina"
+				"text": "Buy"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "B_sainaActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "B_tiba"
+				"text": "Buy"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "B_tibaActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 65, 0 )
+			"size": new java.awt.Dimension( 635, 500 )
+		} )
+	}
+}
